@@ -1,5 +1,5 @@
 # piedpiper-beta
-[The Beta Pied Pier Site Demo](http://gjrdiesel.github.io/piedpiper-beta/)
+[The Beta Pied Piper Site Demo](http://gjrdiesel.github.io/piedpiper-beta/)
 
 Bootstrap based HTML/CSS Pied Piper Interface
 
