@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>PiedPiper</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="app.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<nav class="navbar navbar-pied">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <img src="piedpiper.png" alt="" width="200px"/>
+            </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <form class="navbar-form navbar-right" role="search">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                </div>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><i class="fa fa-upload" aria-hidden="true"></i> Upload</a></li>
+                <li><a href="#"><i class="fa fa-link" aria-hidden="true"></i> Share Link</a></li>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+<ul class="tabs">
+    <li><a href="#"><i class="fa fa-cog" aria-hidden="true"></i> Calibration</a></li>
+    <li><a href="#"><i class="fa fa-hdd-o" aria-hidden="true"></i> Scratchpad</a></li>
+    <li><a href="#" class="active"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+</ul>
+<div class="tab-bar"></div>
+
+<div class="row text-center hud">
+    <div class="col-md-3">
+        <img src="logo.png" alt=""/>
+    </div>
+    <div class="col-md-2 col-md-offset-2">
+        <div class="btn btn-default btn-lg peers">
+            <i class="fa fa-video-camera" aria-hidden="true"></i>&nbsp; Global Peers &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2191
+        </div>
+    </div>
+    <div class="col-md-2">
+        <div class="btn btn-default btn-lg util">
+            <i class="fa fa-area-chart" aria-hidden="true"></i>&nbsp; Utilization &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13%
+        </div>
+    </div>
+    <div class="col-md-2">
+        <div class="btn btn-default btn-lg stored">
+            <i class="fa fa-signal" aria-hidden="true"></i>&nbsp; Total Stored &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.3TB
+        </div>
+    </div>
+</div>
+
+<div class="tab-bar">
+</div>
+
+<div class="sort-options">
+    <i class="fa fa-refresh" aria-hidden="true"></i>
+    <i class="fa fa-th grid active" aria-hidden="true"></i>
+    <i class="fa fa-th-list list inactive" aria-hidden="true"></i>
+</div>
+
+<ul class="filters">
+    <li><a href="#">Clear all filters</a></li>
+    <li><a href="#">PDF</a></li>
+    <li><a href="#">JPG</a></li>
+    <li><a href="#">MOV</a></li>
+    <li><a href="#">MP3</a></li>
+</ul>
+<div class="clearfix"></div>
+
+<div class="container-fluid">
+    <div class="col-md-2 quick">
+        <h1>My Pied Piper</h1>
+        <div><i class="fa fa-folder-open-o" aria-hidden="true"></i> Recent</div>
+        <div><i class="fa fa-star-o" aria-hidden="true"></i> Starred</div>
+        <hr>
+        <div><i class="fa fa-file-o" aria-hidden="true"></i> Files</div>
+        <div><i class="fa fa-picture-o" aria-hidden="true"></i> Photos</div>
+        <div><i class="fa fa-film" aria-hidden="true"></i> Movies</div>
+    </div>
+    <div class="col-md-8 files">
+
+        <div class="row box">
+            <div class="col-md-2 icon section">
+                <i class="fa fa-folder-o" aria-hidden="true"></i>
+            </div>
+            <div class="col-md-2 name section">
+                Accounting Docs
+            </div>
+            <div class="col-md-2 size section">
+                100mb
+            </div>
+            <div class="col-md-2 compression section">
+                200%
+            </div>
+            <div class="col-md-2 status section">
+                Downloading
+            </div>
+            <div class="col-md-2 options section">
+                <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                <i class="fa fa-cog" aria-hidden="true"></i>
+                <i class="fa fa-times" aria-hidden="true"></i>
+            </div>
+        </div>
+        <div class="row box">
+            <div class="col-md-2 icon section">
+                <i class="fa fa-folder-o" aria-hidden="true"></i>
+            </div>
+            <div class="col-md-8 name section">
+                Pied Piper Docs
+            </div>
+            <div class="col-md-2 options section">
+                <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                <i class="fa fa-cog" aria-hidden="true"></i>
+                <i class="fa fa-times" aria-hidden="true"></i>
+            </div>
+        </div>
+        <div class="row box">
+            <div class="col-md-2 icon section">
+                <i class="fa fa-picture-o" aria-hidden="true"></i>
+            </div>
+            <div class="col-md-8 name section">
+                Camera Uploads
+            </div>
+            <div class="col-md-2 options section">
+                <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                <i class="fa fa-cog" aria-hidden="true"></i>
+                <i class="fa fa-times" aria-hidden="true"></i>
+            </div>
+        </div>
+
+    </div>
+    <div class="col-md-2 profile-info">
+        <div class="account">
+            <img src="profile-photo.jpg" alt="">
+            Justin Reasoner
+            <br>
+            2TB Storage
+        </div>
+        <span class="pull-right">Sign out</span>
+        <h3>Account</h3>
+        <ul>
+            <li>Personal Account</li>
+            <li>Storage</li>
+            <li>Business Solutions</li>
+        </ul>
+        <h3>Last 30 days</h3>
+        <div>1.23GB | 33% Saved</div>
+    </div>
+</div>
+
+<footer>
+    © 2016 HOME BOX OFFICE, INC. ALL RIGHTS RESERVED. HBO® AND RELATED CHANNELS AND SERVICE MARKS ARE THE PROPERTY OF HOME BOX OFFICE, INC.
+</footer>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+</html>
