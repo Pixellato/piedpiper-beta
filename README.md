@@ -9,3 +9,5 @@ Some parts aren't quite finished and it's definitely not mobile friendly (probab
 Reid Hoffman once said; 'If you are not embarrassed by the first version of your product, you've launched too late.'
 
 ![The beta website screenshot](ss.png "Screenshot")
+
+_Oh yeah_ HBO owns rights to all the stuff, I'm in no way affiliated. Be sure to check out the official [piedpiper.com](http://piedpiper.com) website.
